@@ -3,11 +3,15 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/CodersHub-master/app/src/main/res/layout/aftdata.xml" value="0.10729166666666666" />
         <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_default.xml" value="0.17255434782608695" />
         <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_display.xml" value="0.17889492753623187" />
-        <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_list.xml" value="0.1265625" />
+        <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_list.xml" value="0.1" />
+        <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_on_going.xml" value="0.10729166666666666" />
+        <entry key="..\:/CodersHub-master/app/src/main/res/layout/fragment_up_coming.xml" value="0.10729166666666666" />
         <entry key="..\:/CodersHub-master/app/src/main/res/layout/item_view.xml" value="0.17255434782608695" />
         <entry key="..\:/CodersHub-master/app/src/main/res/layout/recyclerdata.xml" value="0.1453804347826087" />
+        <entry key="..\:/CodersHub-master/app/src/main/res/layout/updata.xml" value="0.10729166666666666" />
         <entry key="..\:/LineUpContests/app/src/main/res/layout/activity_main.xml" value="0.184375" />
         <entry key="..\:/LineUpContests/app/src/main/res/layout/fragment_default.xml" value="0.184375" />
         <entry key="..\:/LineUpContests/app/src/main/res/layout/fragment_display.xml" value="0.184375" />

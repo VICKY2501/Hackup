@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
 import androidx.fragment.app.activityViewModels
+import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.fragment.findNavController
@@ -29,15 +30,12 @@ class ListFragment : Fragment() , Rvlisten {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragment
+
         (activity as AppCompatActivity).supportActionBar!!.hide()
         val binding = FragmentListBinding.inflate(inflater)
         binding.lifecycleOwner = this
         binding.data = sharedViewModel
-        // Giving the binding access to the OverviewViewModel
 
-
-        // Sets the adapter of the photosGrid RecyclerView
         binding.recyclerView.adapter = LuAdapter(this)
 
         return binding.root
@@ -60,6 +58,6 @@ class ListFragment : Fragment() , Rvlisten {
             val bundle = Bundle().apply {
                 putSerializable("contest", hit)
             }
-            findNavController().navigate(R.id.action_listFragment_to_displayFragment, bundle)
+            findNavController().navigate(R.id.action_listFragment_to_upComing, bundle)
     }
 }

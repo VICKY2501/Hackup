@@ -10,6 +10,6 @@ data class ContestsItem(
     val name: String,
     val site: String,
     val start_time: String,
-    val status: String,
+    var status: String,
     val url: String
 ) : Serializable

@@ -3,9 +3,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
     <data>
-<variable
-    name="Codes"
-    type="com.example.lineup_contests.ContestsItem" />
+        <variable
+            name="Codes"
+            type="com.example.lineup_contests.ContestsItem" />
     </data>
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -29,7 +29,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_margin="15dp"
-                    android:text="@{Codes.status }"
+                    android:text="OnGoing/Completed"
                     android:textSize="16sp"
                     app:layout_constraintStart_toStartOf="parent"
                     app:layout_constraintTop_toBottomOf="@+id/start_date" />
