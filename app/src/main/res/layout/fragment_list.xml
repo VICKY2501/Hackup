@@ -27,13 +27,13 @@
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/constr"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent">
+                android:layout_height="wrap_content">
 
                 <androidx.recyclerview.widget.RecyclerView
                     android:id="@+id/recyclerView"
                     listData="@{data.allContests}"
-                    android:layout_width="405dp"
-                    android:layout_height="738dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
                     app:layout_constraintBottom_toBottomOf="@id/constr"
                     app:layout_constraintEnd_toEndOf="@id/constr"
                     app:layout_constraintStart_toStartOf="@id/constr"
